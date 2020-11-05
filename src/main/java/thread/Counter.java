@@ -1,8 +1,8 @@
 package thread;
 
 public class Counter {
-    private int value;
     private static final int MAX_VALUE = 50;
+    private int value;
 
     public int getValue() {
         return value;
