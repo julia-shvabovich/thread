@@ -8,7 +8,7 @@ public class Counter {
         return value;
     }
 
-    public static int getMaxValue() {
+    public int getMaxValue() {
         return MAX_VALUE;
     }
 

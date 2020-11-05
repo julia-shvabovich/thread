@@ -11,7 +11,7 @@ public class ThreadRunnableImpl implements Runnable {
     }
 
     public void run() {
-        while (counter.getValue() < Counter.getMaxValue()) {
+        while (counter.getValue() < counter.getMaxValue()) {
             counter.count();
             logger.info(Thread.currentThread().getName() + " " + counter.getValue());
         }
